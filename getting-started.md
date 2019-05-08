@@ -25,7 +25,7 @@ page_nav:
         url: '/'
     next:
         content: Characterization Tests
-        url: '#'
+        url: '/lab-characterization'
 ---
 
 The goal of this workshop is to help engineers start to unit test an existing application and start practicing the skills required in order to solve those real world problems.

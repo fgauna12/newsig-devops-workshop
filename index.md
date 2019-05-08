@@ -28,4 +28,12 @@ grid_navigation:
       excerpt: Let's get started adding tests to a sample legacy app
       cta: Read More
       url: 'getting-started'
+    - title: Characterization Tests
+      excerpt: Daunted by unfamiliar legacy code? Let's practice
+      cta: Read More
+      url: 'lab-characterization'
+    - title: Unit Tests
+      excerpt: Now for the best part - adding unit tests!
+      cta: Read More
+      url: 'lab-unit-tests'
 ---
