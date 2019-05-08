@@ -21,3 +21,14 @@ steps:
       $(build.binariesDirectory):/srv/jekyll/_site
     containerCommand: 'jekyll build --future'
     detached: false
+
+- task: CopyFiles@2
+  displayName: Copy "_site" to staging directory
+  inputs:
+    SourceFolder: '$(build.binariesDirectory)'
+    TargetFolder: '$(build.artifactstagingdirectory)'
+
+- task: PublishBuildArtifacts@1
+  displayName: Publish
+  inputs:
+    ArtifactName: drop
