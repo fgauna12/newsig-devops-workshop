@@ -4,27 +4,27 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
-description: Project description
+title: Automated Testing Workshop
+description: by Nebbia Technology
 buttons:
-    - content: Button
+    - content: Slides
       url: '#'
       external_url: false
     - icon: github
-      content: Button with icon
-      url: '#'
+      content: Sample App Source
+      url: 'https://github.com/fgauna12/AutomatedTestingWorkshop'
       external_url: true
 
 # Author box
 author:
     title: About Author
-    title_url: '#'
+    title_url: 'https://www.linkedin.com/in/facundogauna/'
     external_url: true
-    description: Author description
+    description: Facundo is a Cloud Solutions Architect at Nebbia Technology. He enjoys helping clients with architecture, containers/orchestration, and stream lining development processes.
 
 # Grid navigation
 grid_navigation:
-    - title: Grid navigation
+    - title: Getting Started with Sample App
       excerpt: Section description
       cta: Read more
       url: '#'
