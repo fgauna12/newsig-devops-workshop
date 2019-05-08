@@ -24,16 +24,16 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Getting Started
-      excerpt: Let's get started adding tests to a sample legacy app
+    - title: Lab - Getting Started
+      excerpt: "Let's get ready for a series of labs to practice automated testing."
       cta: Read More
       url: 'getting-started'
-    - title: Characterization Tests
-      excerpt: Daunted by unfamiliar legacy code? Let's practice
+    - title: Lab - Characterization Tests
+      excerpt: "Daunted by unfamiliar legacy code? Sharpen your skills to become familiar with the code and set yourself up for refactoring."
       cta: Read More
       url: 'lab-characterization'
-    - title: Unit Tests
-      excerpt: Now for the best part - adding unit tests!
+    - title: Lab - Unit Tests
+      excerpt: "Now for the best part - adding unit tests! Using characterization tests as a basis for initial test coverage, we can refactor and introduce seams to start unit testing."
       cta: Read More
       url: 'lab-unit-tests'
 ---
