@@ -46,12 +46,6 @@ The goal of this workshop is to help engineers start to unit test an existing ap
 
 This sample application is meant to help someone like me understand what foods they could eat. This also includes helping someone track what they've already ate and help them not exceed their daily carb limit (e.g. 50 grams/day).
 
-### Table of Contents
-
-- [Getting Started](#getting-started)
-- [Characterization Tests](#characterization-tests)
-- [Unit Tests](#unit-tests)
-
 ## Getting Started
 
 The sample application is an ASP.NET Core API with .NET Core. It uses a SQL Server database which we'll be able to pull using Docker. 
@@ -111,12 +105,28 @@ Next, launch SQL Server Management Studio and provide the following parameters:
 - Password: The password you picked above on the `docker run` step
 
 
-![](docs/images/ssms-connect.png?raw=true)
+![](/doks-theme/assets/images/ssms-connect.png)
 
 After you connect, you'll see a database called *Foods*
 
-![](docs/images/ssms-explorer.png?raw=true)
+![](/doks-theme/assets/images/ssms-explorer.png)
 
-> :fire: Note - If you have trouble connecting to the database using SSMS, you can try using the command line:
-[MSFT Docs - Connection to SQL Server](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-2017&pivots=cs1-powershell#connect-to-sql-server). If you can't connect, you can try killing your container using a new SA password.
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> If you have trouble connecting to the database using SSMS, you can try using the command line:
+    <a href="https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-2017&pivots=cs1-powershell#connect-to-sql-server">MSFT Docs - Connection to SQL Server</a>. If you still can't connect, you can try killing your container using a new SA password.</p>
+</div>
+
+### 2. Run the API
+
+If you haven't already, clone this repository.
+
+Open the `KetoPal.sln` solution.
+
+Go to the `appsettings.Development.json` config file and ensure your connection strings have the correct IP for the server. While you're at it, also provide the database password you set up.
+
+After you change the settings, run the project. 
+Then verify that the API is working correctly by going to `http://localhost:[some port]:/api/products`
+
+The database is quite big, hopefully it doesn't time out on you.
+
 

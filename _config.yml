@@ -7,17 +7,13 @@ doks:
             text: Automated Testing Workshop
             image: true
         nav:
-            - item_name: Item 1
-              item_url: '#'
-            - item_name: Item 2
-              item_url: '#'
-            - item_name: Item 3
-              item_url: '#'
+            - item_name: Resources
+              item_url: '/resources'
     footer:
         content:
             logo:
                 text: Automated Testing Workshop
-                image: false
+                image: true
             copyright: Copyright &copy; 2019. - Nebbia Technology <br>All rights reserved.
         social_list:
             - network_name: twitter
