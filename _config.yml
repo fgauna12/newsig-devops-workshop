@@ -5,7 +5,7 @@ doks:
     header:
         logo:
             text: Automated Testing Workshop
-            image: https://www.nebbiatech.com/wp-content/uploads/2017/11/nebbia-technology-logo.png
+            image: true
         nav:
             - item_name: Item 1
               item_url: '#'
@@ -17,7 +17,7 @@ doks:
         content:
             logo:
                 text: Automated Testing Workshop
-                image: https://www.nebbiatech.com/wp-content/uploads/2017/11/nebbia-technology-logo.png
+                image: false
             copyright: Copyright &copy; 2019. - Nebbia Technology <br>All rights reserved.
         social_list:
             - network_name: twitter

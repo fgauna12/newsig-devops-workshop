@@ -24,8 +24,8 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Getting Started with Sample App
-      excerpt: Section description
-      cta: Read more
-      url: '#'
+    - title: Getting Started
+      excerpt: Let's get started adding tests to a sample legacy app
+      cta: Read More
+      url: 'getting-started'
 ---
