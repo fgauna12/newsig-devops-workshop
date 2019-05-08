@@ -41,11 +41,18 @@ Before we start creating the feature, let's create some **characterization tests
 
 ## Write Characterization Tests
 
-### `ProductsController.Get` 
+Become familiar with the code. Don't refactor. Let's start with a single method and be inquisitive. 
+
+### Start with `ProductsController.Get` 
 
 Feel free to create a test project. Start experimenting and creating a characterization test to understand how it works today.
 
 As you start learning, create some test cases to start documenting given some criteria what the expected results are.
+
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> If you are new to ASP.NET Core, when you create a test project, make sure it is in <em>.NET Core</em> and it uses <b>Microsoft.AspNetCore.App</b> NuGet package
+    </p>
+</div>
 
 <div class="callout callout--danger">
     <p><strong>Note:</strong> Remember, don't start refactoring right away. You have running database using docker. Feel free to connect to it using your tests and expirement away.
