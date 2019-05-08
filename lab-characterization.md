@@ -39,15 +39,19 @@ Before we start creating the feature, let's create some **characterization tests
 - [Testing Controller Logic in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-2.2)
 - [Parsing Results from ActionResult](https://stackoverflow.com/a/51489502)
 
-## Exploring the Legacy
+## Write Characterization Tests
 
-### Create Characterization Tests for the `ProductsController.Get` method
+### `ProductsController.Get` 
 
 Feel free to create a test project. Start experimenting and creating a characterization test to understand how it works today.
 
 As you start learning, create some test cases to start documenting given some criteria what the expected results are.
 
->:warning: Note: Remember, don't start refactoring right away. You have running database using docker. Feel free to connect to it using your tests and expirement away.
+<div class="callout callout--danger">
+    <p><strong>Note:</strong> Remember, don't start refactoring right away. You have running database using docker. Feel free to connect to it using your tests and expirement away.
+    </p>
+</div>
+
 
 #### How do I know I'm done?
 
@@ -55,30 +59,26 @@ As you start learning, create some test cases to start documenting given some cr
 - What would it take to start making this code more unit testable?
 - Do you comfortable enough to start refactoring without breaking it?
 
-### Refactor the method
+## Refactor
 
-Run your characterization tests often to make sure your refactoring is not breaking things.
+Create an end-state in mind of what you would like the architecture to look like. For example, what would the code look like if it was using:
 
-Experiment with using SOLID principles and trying out concepts like _Clean Architecture_.
+ - Dependency Injection 
+ - SOLID Principles 
+ - Clean Architecture
 
-#### Stretch Goal 
+<div class="callout callout--success">
+    <p><strong>Don't Forget:</strong> Run your characterization tests often to make sure your refactoring is not breaking things.</p>
+</div>
 
-What happens when the database goes down? Can you similate this?
+Checkout the [Resources](/resources) tab for useful links.
 
-### Create Characterization Tests for the `ProductsController.Consume` method
+## Stretch Goal 
 
-Now let's do it again for the consumption api call.
+ - What happens when the database goes down? Can you similate this?
+ - Write some characterization tests for `ProductsController.Consume`
+ - Refactor with what you're comfortable
 
-### Refactor the method
 
-After you have the tests working, refactor and re-run your tests often.
 
-Are you able to reuse some of the code you previously created?
 
-#### Stretch Goal 
-
-Do some thinking and Googlefu:
-
-- What's are the downsides of using a static class like `InMemoryUsers`?
-- Where and how would you do validation API requests? 
-- How could you test the logic inside the stored procedures?
