@@ -5,15 +5,15 @@ keywords:
 comments: false
 
 # Hero section
-title: Page title
-description: Page description
+title: Nebbia Workshops
+description: Automated Testing Workshop
 
 # Author box
 author:
     title: About Author
     title_url: '#'
     external_url: true
-    description: Author description
+    description: Facundo is a Cloud Solutions Architect at Nebbia Technology. He enjoys helping clients with architecture, containers/orchestration, and stream lining development processes.
 
 # Micro navigation
 micro_nav: true
