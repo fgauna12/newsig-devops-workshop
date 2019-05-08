@@ -46,3 +46,4 @@ Run your tests often.
 ### Stretch Goal
 
 - Refactor your unit tests simple to read
+- Add unit tests for the other API calls (If you have supported characterization tests)
