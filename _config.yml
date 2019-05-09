@@ -5,14 +5,14 @@ doks:
     header:
         logo:
             text: Automated Testing Workshop
-            image: true
+            image: false
         nav:
             - item_name: Resources
               item_url: '/resources'
     footer:
         content:
             logo:
-                text: Automated Testing Workshop
+                text: 
                 image: true
             copyright: Copyright &copy; 2019. - Nebbia Technology <br>All rights reserved.
         social_list:
