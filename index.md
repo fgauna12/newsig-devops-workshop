@@ -8,7 +8,7 @@ title: Automated Testing Workshop
 description: by Nebbia Technology
 buttons:
     - content: Slides
-      url: '#'
+      url: 'https://nebbiadocs01.blob.core.windows.net/workshop-material/[Generic] Automated Testing Workshop Slides.zip'
       external_url: false
     - icon: github
       content: Sample App Source
