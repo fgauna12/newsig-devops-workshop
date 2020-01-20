@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Lab - Unit Tests
+title: Lab - Kubernetes
 description: Now for the best part - adding unit tests!
 
 # Author box
