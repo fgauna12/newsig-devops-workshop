@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Lab - Docker
-description: Let's get started with Docker! Why containerrization and why it's so powerful.
+description: Let's get started with Docker! Why containerization and why it's so powerful.
 
 # Author box
 author:

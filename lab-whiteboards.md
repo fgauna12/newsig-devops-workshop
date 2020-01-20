@@ -5,8 +5,8 @@ keywords:
 comments: false
 
 # Hero section
-title: Lab - Docker
-description: Let's get started with Docker! Why containerrization and why it's so powerful.
+title: Whiteboard Sessions
+description: Now, let's break up into groups and practice what you learned.
 
 # Author box
 author:
@@ -21,34 +21,46 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Home
-        url: '/'
+        content: Azure DevOps Lab
+        url: '/lab-azure-devops'
     next:
-        content: Lab - Kubernetes
-        url: '/lab-kubernetes'
+        content: Closing Out
+        url: '/closing-out'
 ---
 
 ## Overview
 
-First, let's walk through the value of using Docker.
+Here's how it works, **pick a track** and you'll be given a problem to solve with your team.
+You'll have **45 minutes**. Don't worry it doesn't have to be perfect. We'll go through the solutions together
 
-### Pre-Requisites
+## Option A - DevOps Whiteboarding Session
 
-You'll want to run a modern version a web browser. It's probably not going to work with Internet Explorer.
+<div class="callout callout--info">
+    <p><strong>Slides</strong> Read through the slides to understand the scenario you're solving. You can find the slides <a href="/slides/4_whiteboards_container_devops_nosolution.pdf" download>here</a> </p>
+</div>
 
-### Lab (15 minutes)
+### Exercise Questions
+(_Also available on the slides_)
 
-The lab can be found here:
+1. You want to use Kubernetes. How would you define the Kubernetes resources for this application? ​
+(e.g. pods, replicate sets, ingress, namespaces, etc.)
+2. What would the CI/CD pipeline look like for deploying to the current environments? (Start with just dev)​
 
-- [KataCoda](https://github.com/moq/moq)
+### Stretch Goals
 
-## Stretch Goals!
+3. Is it a good idea to deploy your monolith to Kubernetes?​
+4. To re-build this entire application as microservices, it would take over 1 year. What would you do?​
 
-### What's the process to update your application?
+## Option B - Architecture Whiteboarding Session
 
-If you were to change `index.html`, what you have to do in order to redeploy your container so that your changes are in effect?
+<div class="callout callout--info">
+    <p><strong>Slides</strong> Read through the slides to understand the scenario you're solving. You can find the slides <a href="/slides/4b_whiteboards_microservices..pdf" download>here</a> </p>
+</div>
 
-### Can you update files on a running container?
+### Exercise Questions
+(_Also available on the slides_)
 
-If you wanted to update file on a running container, could you do it? 
-Is it a good idea?
+1. What would a microservices architecture look like?​
+2. How are you leveraging the [principles of microservices](https://samnewman.io/talks/principles-of-microservices/​)?​
+
+Draw away!

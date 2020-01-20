@@ -55,6 +55,12 @@ Once you're done, come back here to continue the lab.
 
 ## The Lab
 
+<div class="callout callout--warning">
+    <p><strong>Wait a sec</strong> Did you do the pre-requisites?
+    You'll need an Azure DevOps organization and a sample project as created by the demo generator. </p>
+</div>
+
+
 Now, you're ready to [follow this lab](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/) for implementing Continuous Integration on your new team project.
 
 ## Stretch Goal
