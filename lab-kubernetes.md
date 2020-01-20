@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Lab - Kubernetes
-description: Now for the best part - adding unit tests!
+description: Now for the best part - playing round with Kubernetes!
 
 # Author box
 author:
@@ -21,29 +21,43 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Characterization Tests
-        url: '/lab-characterization'
+        content: Intro to Docker
+        url: '/lab-docker'
+    next:
+        content: Azure DevOps Lab
+        url: '/lab-azure-devops'
 ---
 
 ## Overview
 
-Now that the source code is cleaner, start adding some unit tests. **Run your characterization and newly created unit tests often.**
+Now that you under the value of conterization, how does Kubernetes come into play? 
 
-### Useful Packages
+It's important that you understand the value of Kubernetes, otherwise, it's going to be difficult to understand the _return on the investment_.
 
-- [Moq](https://github.com/moq/moq)
-- [Fluent Assertions](https://fluentassertions.com/)
-- [Bogus](https://github.com/bchavez/Bogus)
+#### Why Kubernetes?
 
-## Make some unit tests!
+Here's a quick recap:
 
-### Start with `ProductsController.Get`
+- Orchestrate multiple instances of a container across a _pool of resources_.
+- Zero-downtime deployments
+- Self-healing applications
+- [Bin-packing](https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/)
 
-Know that you know some of the characteristics of the code and how it behaves *and* you have refactored it using well-known practices. Add some unit tests for the test cases you do know. **It's ok to keep refactoring**, it didn't have to be perfect the first time.
+### Mini-Lab
 
-Run your tests often.
+Go to [this KataCoda lab](https://www.katacoda.com/courses/docker/create-nginx-static-web-server​) and follow the instructions.
 
-### Stretch Goal
+#### Stretch Goals
 
-- Refactor your unit tests simple to read
-- Add unit tests for the other API calls (If you have supported characterization tests)
+##### How do you deploy 10 instances of a pod?
+
+Try to modify the Kubernetes deployment so that you deploy 10 instances of a pod.
+
+##### How do you check the status of a deployment?
+
+What `kubectl` command can you run to check the status of a deployment? Try it out.
+
+### Parking Lot
+
+Don't forget, we'll have a parking lot session at the end of the day. 
+Let us know what you'd like to add to our list.
