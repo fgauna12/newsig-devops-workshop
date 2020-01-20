@@ -27,13 +27,13 @@ grid_navigation:
     - title: Lab - Intro to Docker
       excerpt: "Let's get started with Docker!"
       cta: Read More
-      url: 'getting-started'
+      url: 'lab-docker'
     - title: Lab - Intro to Kubernetes
       excerpt: "Let's get started with Kubernetes!"
       cta: Read More
-      url: 'lab-characterization'
-    - title: Lab - Unit Tests
-      excerpt: "Now for the best part - adding unit tests! Using characterization tests as a basis for initial test coverage, we can refactor and introduce seams to start unit testing."
+      url: 'lab-kubernetes'
+    - title: Lab - Azure DevOps
+      excerpt: "Now for the best part - bringing it all together using Azure DevOps!"
       cta: Read More
-      url: 'lab-unit-tests'
+      url: 'lab-azure-devops'
 ---
