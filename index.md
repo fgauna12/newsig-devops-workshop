@@ -4,7 +4,7 @@ layout: homepage
 keywords:
 
 # Hero section
-title: DevOps Workshop
+title: Cloud-Native DevOps Workshop
 description: by New Signature
 buttons:
     - content: Slides
@@ -24,16 +24,20 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Lab - Intro to Docker
+    - title: 1. Lab - Intro to Docker
       excerpt: "Let's get started with Docker!"
       cta: Read More
       url: 'lab-docker'
-    - title: Lab - Intro to Kubernetes
+    - title: 2. Lab - Intro to Kubernetes
       excerpt: "Let's get started with Kubernetes!"
       cta: Read More
       url: 'lab-kubernetes'
-    - title: Lab - Azure DevOps
+    - title: 3. Lab - Azure DevOps
       excerpt: "Now for the best part - bringing it all together using Azure DevOps!"
       cta: Read More
       url: 'lab-azure-devops'
+    - title: 4. Whiteboarding Sessions
+      excerpt: "Let's break up in to teams and solution a problem."
+      cta: Read More
+      url: 'lab-whiteboards'
 ---
