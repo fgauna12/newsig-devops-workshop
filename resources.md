@@ -52,6 +52,4 @@ micro_nav: true
 
 ## Reports
 
-### State of DevOps Report
-
-Click <a href="/slides/state-of-devops-2019.pdf" download>here</a>
+### <a href="/slides/state-of-devops-2019.pdf" download> 2019 State of DevOps Report </a>
