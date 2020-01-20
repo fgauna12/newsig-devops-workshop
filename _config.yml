@@ -4,7 +4,7 @@ doks:
     color_theme: blue # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
-            text: Automated Testing Workshop
+            text: Cloud-Native DevOps Workshop
             image: false
         nav:
             - item_name: Resources
@@ -17,11 +17,11 @@ doks:
             copyright: Copyright &copy; 2019. - New Signature <br>All rights reserved.
         social_list:
             - network_name: twitter
-              profile_url: 'https://twitter.com/NebbiaTech'
+              profile_url: 'https://twitter.com/newsignature'
             - network_name: linkedin
-              profile_url: 'https://www.linkedin.com/company/nebbia-technology/'
+              profile_url: 'https://www.linkedin.com/company/new-signature/'
     google_analytics:
-        tracking_code: UA-139866020-1
+        tracking_code: UA-156571455-1
     comments:
         disqus_forum_shortname: # Add your disqus forum shortname to activate comments
 

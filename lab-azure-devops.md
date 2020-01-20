@@ -5,8 +5,8 @@ keywords:
 comments: false
 
 # Hero section
-title: Lab - Unit Tests
-description: Now for the best part - adding unit tests!
+title: Lab - Azure DevOps
+description: Ignore the bad name. Let's adopt some DevOps practices using Azure DevOps.
 
 # Author box
 author:
@@ -21,29 +21,44 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Characterization Tests
-        url: '/lab-characterization'
+        content: Intro to Kubernetes
+        url: '/lab-kubernetes'
+    next: 
+        content: Whiteboard Sessions
+        url: '/lab-whiteboards'
 ---
 
-## Overview
+## Pre-Requisites
 
-Now that the source code is cleaner, start adding some unit tests. **Run your characterization and newly created unit tests often.**
+Before you get started, you'll need to create an Azure DevOps organization
 
-### Useful Packages
+### Create an Azure DevOps Account
 
-- [Moq](https://github.com/moq/moq)
-- [Fluent Assertions](https://fluentassertions.com/)
-- [Bogus](https://github.com/bchavez/Bogus)
+If you don't have an Azure DevOps account, follow these steps to create a new **Azure DevOps Organization**. (They are _not_ called accounts because multiple team members can be part of one)
 
-## Make some unit tests!
+1. Go to <a href="http://dev.azure.com" target="_blank">https://dev.azure.com</a>
+2. Click on "Start Free"
+3. Sign In using either:
+    - Your Organization's Azure AD account
+    - Your Personal Microsoft Account (Feel free to create one if you need to)
+4. Get Started with Azure DevOps
+![](/images/get-started-azure-devops-2.jpg)
 
-### Start with `ProductsController.Get`
+That's it! **You don't have to create a new project.**
 
-Know that you know some of the characteristics of the code and how it behaves *and* you have refactored it using well-known practices. Add some unit tests for the test cases you do know. **It's ok to keep refactoring**, it didn't have to be perfect the first time.
+### Create a Sample project
 
-Run your tests often.
+Next, let's use the Azure DevOps Demo Generator to import a sample project.
+Follow the instructions [on this page](https://www.azuredevopslabs.com/labs/azuredevops/prereq/) to create a Team Project. **Only complete Task 1**
 
-### Stretch Goal
+Once you're done, come back here to continue the lab.
 
-- Refactor your unit tests simple to read
-- Add unit tests for the other API calls (If you have supported characterization tests)
+## The Lab
+
+Now, you're ready to [follow this lab](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/) for implementing Continuous Integration on your new team project.
+
+## Stretch Goal
+
+### Create a CI/CD Pipeline using YAML
+
+Now, instead of clicking around like a crazy person, using YAML to create your pipelines.

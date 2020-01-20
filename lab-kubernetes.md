@@ -34,7 +34,7 @@ Now that you under the value of conterization, how does Kubernetes come into pla
 
 It's important that you understand the value of Kubernetes, otherwise, it's going to be difficult to understand the _return on the investment_.
 
-#### Why Kubernetes?
+### Why Kubernetes?
 
 Here's a quick recap:
 
@@ -43,21 +43,21 @@ Here's a quick recap:
 - Self-healing applications
 - [Bin-packing](https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/)
 
-### Mini-Lab
+## Mini-Lab - Deployments using Kubernetes
 
 Go to [this KataCoda lab](https://www.katacoda.com/courses/docker/create-nginx-static-web-server​) and follow the instructions.
 
-#### Stretch Goals
+### Stretch Goals
 
-##### How do you deploy 10 instances of a pod?
+#### How do you deploy 10 instances of a pod?
 
 Try to modify the Kubernetes deployment so that you deploy 10 instances of a pod.
 
-##### How do you check the status of a deployment?
+#### How do you check the status of a deployment?
 
 What `kubectl` command can you run to check the status of a deployment? Try it out.
 
-### Parking Lot
+## Parking Lot
 
 Don't forget, we'll have a parking lot session at the end of the day. 
 Let us know what you'd like to add to our list.
