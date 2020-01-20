@@ -8,7 +8,7 @@ title: Cloud-Native DevOps Workshop
 description: by New Signature
 buttons:
     - content: Slides
-      url: 'https://nebbiadocs01.blob.core.windows.net/workshop-material/[Generic] Automated Testing Workshop Slides.zip'
+      url: '/slides/newsig-devops-workshop-slides.zip'
       external_url: false
     - icon: github
       content: Sample App Source
