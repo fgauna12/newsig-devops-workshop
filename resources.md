@@ -13,7 +13,7 @@ description: A catered list on helping you develop your testing skills
 #     title: About Author
 #     title_url: '#'
 #     external_url: true
-#     description: Facundo is a Cloud Solutions Architect at Nebbia Technology. He enjoys helping clients with architecture, containers/orchestration, and stream lining development processes.
+#     description: Facundo is a Cloud Solutions Architect at New Signature. He enjoys helping clients with architecture, containers/orchestration, and stream lining development processes.
 
 # Micro navigation
 micro_nav: true
