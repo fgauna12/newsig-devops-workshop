@@ -60,7 +60,7 @@ You'll have **45 minutes**. Don't worry it doesn't have to be perfect. We'll go 
 ### Exercise Questions
 (_Also available on the slides_)
 
-1. What would a microservices architecture look like?​
+1. What would a microservices architecture look like?
 2. How are you leveraging the [principles of microservices](https://samnewman.io/talks/principles-of-microservices/​)?​
 
 Draw away!
