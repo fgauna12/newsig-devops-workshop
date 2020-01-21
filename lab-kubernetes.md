@@ -45,7 +45,7 @@ Here's a quick recap:
 
 ## Mini-Lab - Deployments using Kubernetes
 
-Go to [this KataCoda lab](https://www.katacoda.com/courses/docker/create-nginx-static-web-server) and follow the instructions.
+Go to [this KataCoda lab](https://www.katacoda.com/courses/kubernetes/creating-kubernetes-yaml-definitions) and follow the instructions.
 
 ### Stretch Goals
 
