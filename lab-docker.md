@@ -38,7 +38,7 @@ You'll want to run a modern version a web browser. It's probably not going to wo
 
 ## Mini-Lab 1 - Build a container
 
-Go to [this KataCoda lab](https://www.katacoda.com/courses/docker/create-nginx-static-web-server​) and follow the instructions.
+Go to [this KataCoda lab](https://www.katacoda.com/courses/docker/create-nginx-static-web-server) and follow the instructions.
 
 ### Stretch Goals
 
