@@ -53,4 +53,4 @@ Is it a good idea?
 
 ## Mini-Lab 2 - More docker commands
 
-Go to [this KataCoda lab](​https://www.katacoda.com/courses/docker/deploying-first-container) and follow the instructions.
+Go to [this KataCoda lab](https://www.katacoda.com/courses/docker/deploying-first-container) and follow the instructions.
