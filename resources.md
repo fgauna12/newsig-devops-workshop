@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Resources
-description: A catered list on helping you develop your testing skills
+description: A catered list on helping you grow your skills
 
 # Author box
 # author:
@@ -42,6 +42,8 @@ micro_nav: true
 
 ![](/images/books_accelerate.jpg)
 
+<br/>
+
 ## Blogs
 
 ### [Nebbia Technology's Blog](https://www.nebbiatech.com/blog/)
@@ -49,6 +51,18 @@ micro_nav: true
 ### [Facundo's Blog](https://gaunacode.com)
 
 ### [Chris's Blog](https://chrislayers.com/)
+
+<br/>
+
+## Open Source Projects
+
+### [eShopOnContainers Microservices Sample Reference Architecture](https://github.com/dotnet-architecture/eShopOnContainers)
+
+### [Orlando Code Camp](https://github.com/onetug/Codecampster)
+There's also the public team project for [Azure DevOps](https://dev.azure.com/NebbiaDemo/OrlandoCodeCamp/_build?definitionId=239&_a=summary) that deploys the code as an Azure Web App for Container.
+Lastly, the source code for the pipelines is in YAML and it's seen [on the repository](https://github.com/onetug/Codecampster/blob/master/pipelines/main.yml)
+
+<br/>
 
 ## Reports
 
