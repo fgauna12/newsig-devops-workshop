@@ -60,6 +60,13 @@ Once you're done, come back here to continue the lab.
     You'll need an Azure DevOps organization and a sample project as created by the demo generator. </p>
 </div>
 
+<div class="callout callout--danger">
+    <p><strong>Feature Flag</strong> If you don't see a <b>pipelines</b> menu item, you have to <b>enable multi-stage builds</b>
+    <img src="/images/preview-feature-pipelines.jpg" />
+
+    If you need help enabling this feature, <a href="https://docs.microsoft.com/en-us/azure/devops/project/navigation/preview-features?view=azure-devops#enable-features-for-your-use">see here</a>
+    </p>
+</div>
 
 Now, you're ready to [follow this lab](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/) for implementing Continuous Integration on your new team project.
 
