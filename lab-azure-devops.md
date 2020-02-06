@@ -28,31 +28,6 @@ page_nav:
         url: '/lab-whiteboards'
 ---
 
-## Pre-Requisites
-
-Before you get started, you'll need to create an Azure DevOps organization
-
-### Create an Azure DevOps Account
-
-If you don't have an Azure DevOps account, follow these steps to create a new **Azure DevOps Organization**. (They are _not_ called accounts because multiple team members can be part of one)
-
-1. Go to <a href="http://dev.azure.com" target="_blank">https://dev.azure.com</a>
-2. Click on "Start Free"
-3. Sign In using either:
-    - Your Organization's Azure AD account
-    - Your Personal Microsoft Account (Feel free to create one if you need to)
-4. Get Started with Azure DevOps
-![](/images/get-started-azure-devops-2.jpg)
-
-That's it! **You don't have to create a new project.**
-
-### Create a Sample project
-
-Next, let's use the Azure DevOps Demo Generator to import a sample project.
-Follow the instructions [on this page](https://www.azuredevopslabs.com/labs/azuredevops/prereq/) to create a Team Project. **Only complete Task 1**
-
-Once you're done, come back here to continue the lab.
-
 ## The Lab
 
 <div class="callout callout--warning">
