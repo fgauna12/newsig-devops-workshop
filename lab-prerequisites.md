@@ -42,12 +42,13 @@ If you don't have an Azure DevOps account, follow these steps to create a new **
     - **Description:** - *(empty)*
     - **Visibility:** - Private
 
-Upon hitting **Create Project** Azure DevOps will create a new project for you.
-Congratuations!! You have just created your first Azure DevOps project, now lets explore all the platform has to offer.
+Hit **Create Project**. Azure DevOps will create this new project for you. Once complete let's look over what the platform offers before we move on to additional tasks.
 
-## Getting Familiar with your Project
-Azure DevOps provides a wealth of management features, all available along the left hand side navigation. Let's briefly explore each of these
+## Getting Familiar with the DevOps Portal
+Azure DevOps provides many features for managing the development of an application. Each of these features are made available in the left hand navigation bar, shown below/
+
 ![](/images/left_navigation.png)
+
 - **Overview** - This is the default landing page and supports a variety of dashboards for tracking progress. You can also add files to describe the project including Wiki pages for team knowledge sharing
 
 - **Boards** - This is where you will manage User Stories, Tasks, Bugs, etc. It is a complete planning and tracking platform for your project(s) capable of supporting Scrum, Agile, Kanban, and other methodologies
@@ -60,28 +61,27 @@ Azure DevOps provides a wealth of management features, all available along the l
 
 - **Artifacts** - This is a fully managed storage area for project related artifacts including Test Plan Results, Code Metrics storage, library caching, and custom library hosting.
 
-All of these pieces together enable Azure DevOps to provide a complete end to end solution for your project all in once place.
+While all are useful to a degree, the one's we will focus on for the rest of this lab will be **Repos** and **Pipelines**.
 
 Now that we have a feel for the portal, let's generate a new sample project with  the **Azure DevOps Demo Generator**.
 
 ## Create Sample Project
 
-For the Sample Project, we can use the afore mentioned Demo Generator. Microsoft has laid out how to do this so, for now, hope over to [these instructions](https://www.azuredevopslabs.com/labs/azuredevops/prereq/) to create a Team Project. **Only complete Task 1**
+For the Sample Project, we can use the afore mentioned Demo Generator. Microsoft has laid out how to use tool to create a project we can use in our Azure DevOps account. Use [these instructions](https://www.azuredevopslabs.com/labs/azuredevops/prereq/) to create the project we will use for the rest of this lab. **Only complete Task 1**
 
-At the end please make sure you **Navigate to project** - this will take you to the newly created project in Azure DevOps, the screen will be similar to what you saw when you crated the Test Project previously.
+Upon project import completion make sure you **Navigate to project** - this will take you to the newly created project in Azure DevOps, the screen will be similar to what you saw when you created the Project in the previous section.
 
 ### Exploring Parts Unlimited
-The generator application has created many artifacts within the project, let's take a moment to explore some of the more important ones:
+The imported application will have created artifacts to support our new application, some of the more important ones are:
 
-- Under **Repos** you will see a repository was created called **PartsUnlimited** with all of the code for our application. For those interested, this is a Git repository and it can be cloned locally.
+- **Repos** will now contain the code for our application (**PartsUnlimited**). For those interested, this is a Git repository and it can be cloned locally.
 
-- Under **Pipelines** the template has created pipelines under the **Pipelines** and **Releases** subsections. These are automation artifacts that enable code to be built automatically with each checkin (Continuous Integration) and then deployed once that build completes (Continuous Deployment).
-    - In the default state after generation, the Release pipeline will contain placeholders that can be updated later to deploy the application to Microsoft's public cloud - Azure.
+- **Pipelines** will not contain classic style pipelines for Build (under the **Pipelines** subsection) and Reease. These artifacts enable code to be built automatically with each change (Continuous Integration) and automatically deployed thereafter (Continuous Deployment).
 
 ## Stretch Goal: Create a new build pipeline using YAML
-Currently our project leverages the classic approach to build and manage pipelines by creating them through the point and click interface. While this works for some cases progressively, we are seeing the desire to enable proper versioning and auditing of these pipelines. To address this, Microsoft enables build and release pipelines to be built using YAML (Yet Another Markup Language).
+The pipelines in our project use the classic approach, that is, they are managed exclusively on the portal via a point and click interface. Microsoft also supports creating and managing these pipelines in YAML (Yet Another Markup Language). Doing so allows for local editing of pipelines as well as auditing and history via source control systems. This is the standard moving forward, part of Pipelines as Code PaC).
 
-Pipelines built in YAML are text files that we can add to our source control repository and version over time with full history. Collectively, this is know as Pipeline as Code (PaC) in the industry.
+Let's create a new pipeline using YAML to build our **PartsUnlimited** web application.
 
 ### Part 1: Create the YAML Template
 We can create new Pipelines by accessing the Pipelines section of our project ![](/images/pipelines.png)
@@ -89,14 +89,14 @@ We can create new Pipelines by accessing the Pipelines section of our project ![
 There you will find the **New pipeline** button in the upper right hand corner. After clicking it following these steps:
 
 1. For the **Where is your code?** question, select **Azure Repos Git**
-2. Only one project should exist for **PartsUnlimited** - select it
+2. Only one project should exist called **PartsUnlimited** - select it
 3. Select **Starter pipeline** - this will produce a mostly empty pipeline
-4. On the next screen you will be shown the default starter template. Delete all contents on **Line 13** to the end
+4. Delete all contents on **Line 13** to the end from the starter template
 
 We are now ready to add tasks to perform operations on our code.
 
 ### Part 2: Update the YAML Template with the appropriate tasks
-Be sure your cursor is positioned on **Line 13** and click **Show assistent** on the right hand side just beneath the **Save and Run** button. Doing so will show you a list of tasks you can add to your template.
+Be sure your cursor is positioned on **Line 13** and click **Show assistent** on the right hand side just beneath the **Save and Run** button. Doing so will the list of tasks that can be added to the build script
 
 1. On **Line 10** update the **vmImage** to be **vs2017-win2016**
 2. Type '*visual*' in the *Search tasks* text field. Select **Visual Studio build**
