@@ -47,7 +47,7 @@ Congratuations!! You have just created your first Azure DevOps project, now lets
 
 ## Getting Familiar with your Project
 Azure DevOps provides a wealth of management features, all available along the left hand side navigation. Let's briefly explore each of these
-![](/images/left_navigation.png")
+![](/images/left_navigation.png)
 - **Overview** - This is the default landing page and supports a variety of dashboards for tracking progress. You can also add files to describe the project including Wiki pages for team knowledge sharing
 
 - **Boards** - This is where you will manage User Stories, Tasks, Bugs, etc. It is a complete planning and tracking platform for your project(s) capable of supporting Scrum, Agile, Kanban, and other methodologies
@@ -84,7 +84,7 @@ Currently our project leverages the classic approach to build and manage pipelin
 Pipelines built in YAML are text files that we can add to our source control repository and version over time with full history. Collectively, this is know as Pipeline as Code (PaC) in the industry.
 
 ### Part 1: Create the YAML Template
-We can create new Pipelines by accessing the Pipelines section of our project ![](/images/pipelines.png")
+We can create new Pipelines by accessing the Pipelines section of our project ![](/images/pipelines.png)
 
 There you will find the **New pipeline** button in the upper right hand corner. After clicking it following these steps:
 
