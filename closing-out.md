@@ -22,7 +22,7 @@ Consider reaching out to us! We will be happy to have any follow-up conversation
 
 
 <div class="callout callout--info">
-    <p><strong>New Signature Offerings</strong> Here's a slide deck showing various programs we offer. Let us know if there's something that interests you. <a href="/slides/5b_simple_programs.pdf" download>Offering Slides</a> </p>
+    <p><strong>New Signature Offerings</strong> Here's a slide deck showing various programs we offer. Let us know if there's something that interests you. <a href="{{ site.baseurl }}/slides/5b_simple_programs.pdf" download>Offering Slides</a> </p>
 </div>
 
 
