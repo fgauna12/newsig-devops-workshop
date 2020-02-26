@@ -40,4 +40,8 @@ grid_navigation:
       excerpt: "Let's break up in to teams and solution a problem."
       cta: Read More
       url: 'lab-whiteboards'
+    - title: 5. Close-Out
+      excerpt: "Close out material"
+      cta: Read More
+      url: 'close-out'
 ---
