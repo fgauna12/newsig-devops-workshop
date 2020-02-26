@@ -27,21 +27,21 @@ grid_navigation:
     - title: 1. Lab - Intro to Docker
       excerpt: "Let's get started with Docker!"
       cta: Read More
-      url: 'lab-docker'
+      url: '/lab-docker'
     - title: 2. Lab - Intro to Kubernetes
       excerpt: "Let's get started with Kubernetes!"
       cta: Read More
-      url: 'lab-kubernetes'
+      url: '/lab-kubernetes'
     - title: 3. Lab - Azure DevOps
       excerpt: "Now for the best part - bringing it all together using Azure DevOps!"
       cta: Read More
-      url: 'lab-azure-devops'
+      url: '/lab-azure-devops'
     - title: 4. Whiteboarding Sessions
       excerpt: "Let's break up in to teams and solution a problem."
       cta: Read More
-      url: 'lab-whiteboards'
+      url: '/lab-whiteboards'
     - title: 5. Close-Out
       excerpt: "Close out material"
       cta: Read More
-      url: 'closing-out'
+      url: '/closing-out'
 ---
