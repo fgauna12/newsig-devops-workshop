@@ -43,5 +43,5 @@ grid_navigation:
     - title: 5. Close-Out
       excerpt: "Close out material"
       cta: Read More
-      url: 'close-out'
+      url: 'closing-out'
 ---
