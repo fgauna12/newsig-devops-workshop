@@ -41,7 +41,11 @@ grid_navigation:
       cta: Read More
       url: '/lab-whiteboards'
     - title: 5. Close-Out
-      excerpt: "Close out material"
+      excerpt: "Thanks for coming! Let us know how we did."
       cta: Read More
       url: '/closing-out'
+    - title: Resources
+      excerpt: "A curated list of useful resources"
+      cta: Read More
+      url: '/resources'
 ---
