@@ -67,7 +67,7 @@ Now that we have a feel for the portal, let's generate a new sample project with
 
 ## Create Sample Project
 
-For the Sample Project, we can use the afore mentioned Demo Generator. Microsoft has laid out how to use tool to create a project we can use in our Azure DevOps account. Use [these instructions](https://www.azuredevopslabs.com/labs/azuredevops/prereq/) to create the project we will use for the rest of this lab. **Only complete Task 1**
+For the Sample Project, we can use the afore mentioned Demo Generator. Microsoft has laid out how to use tool to create a project we can use in our Azure DevOps account. Use [these instructions](https://www.azuredevopslabs.com/labs/azuredevops/prereq/){:target="_blank"} to create the project we will use for the rest of this lab. **Only complete Task 1**
 
 Upon project import completion make sure you **Navigate to project** - this will take you to the newly created project in Azure DevOps, the screen will be similar to what you saw when you created the Project in the previous section.
 
