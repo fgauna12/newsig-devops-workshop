@@ -123,7 +123,7 @@ Now that our application is being builtour work is mostly complete. Next, we wil
 ### Part 3: Test Your Script
 Now that we have a complete YAML script for building our application we can save the file. By default, it will be saved as **azure-pipelines.yml** at the root our repository.
 
-Press the **Save and run** button. A dialog will appear to allow for a custom commit message to describe what is being done. For now, just take the default. Click **Save and run** once more. This will queue the build action.
+Press the **Save and Run** button. A dialog will appear to allow for a custom commit message to describe what is being done. For now, just take the default. Click **Save and Run** once more. This will queue the build action.
 
 To see the status of the build click **Pipelines** near the top of the screen. You should see your building running at the top. Clicking on it will allow you to drill into it.
 
