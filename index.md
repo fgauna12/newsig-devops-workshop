@@ -24,6 +24,10 @@ author:
 
 # Grid navigation
 grid_navigation:
+    - title: 0. Pre-Requisites
+      excerpt: "Let's get you set-up"
+      cta: Read More
+      url: 'lab-prerequisites'
     - title: 1. Lab - Intro to Docker
       excerpt: "Let's get started with Docker!"
       cta: Read More
