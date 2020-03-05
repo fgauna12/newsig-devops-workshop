@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Lab - Get things setup
-description: Ignore the bad name. Let's adopt some DevOps practices using Azure DevOps.
+description: Don't have an Azure DevOps Account? No problem.
 
 # Author box
 author:
