@@ -27,7 +27,7 @@ grid_navigation:
     - title: 0. Pre-Requisites
       excerpt: "Let's get you set-up"
       cta: Read More
-      url: 'lab-prerequisites'
+      url: '/lab-prerequisites'
     - title: 1. Lab - Intro to Docker
       excerpt: "Let's get started with Docker!"
       cta: Read More
@@ -48,8 +48,4 @@ grid_navigation:
       excerpt: "Thanks for coming! Let us know how we did."
       cta: Read More
       url: '/closing-out'
-    - title: Resources
-      excerpt: "A curated list of useful resources"
-      cta: Read More
-      url: '/resources'
 ---
