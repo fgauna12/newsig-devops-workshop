@@ -46,13 +46,23 @@ page_nav:
     </p>
 </div>
 
-## Create a new CI/CD pipeline
+## Traditional Pipelines
+
+Here's a lab using traditional Azure DevOps pipelines.
+
+<a href="https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/" class="btn btn--dark btn--rounded btn--w-icon">Azure DevOps Lab</a>
+
+## Stretch Goal - YAML Pipelines
+
+In case you're already familiar with Azure DevOps, here's a lab using YAML pipelines.
+
+### Create a new CI/CD pipeline
 
 The pipelines in our project use the classic approach, that is, they are managed exclusively on the portal via a point and click interface. Microsoft also supports creating and managing these pipelines in YAML (Yet Another Markup Language). Doing so allows for local editing of pipelines as well as auditing and history via source control systems. This is the standard moving forward, part of Pipelines as Code PaC).
 
 Let's create a new pipeline using YAML to build our **PartsUnlimited** web application.
 
-### Part 1: Create the YAML Template
+#### Part 1: Create the YAML Template
 We can create new Pipelines by accessing the Pipelines section of our project ![](/images/pipelines.png)
 
 There you will find the **New pipeline** button in the upper right hand corner. After clicking it following these steps:
@@ -64,7 +74,7 @@ There you will find the **New pipeline** button in the upper right hand corner. 
 
 We are now ready to add tasks to perform operations on our code.
 
-### Part 2: Update the YAML Template with the appropriate tasks
+#### Part 2: Update the YAML Template with the appropriate tasks
 Be sure your cursor is positioned on **Line 13** and click **Show assistent** on the right hand side just beneath the **Save and Run** button. Doing so will the list of tasks that can be added to the build script
 
 1. On **Line 10** update the **vmImage** to be **vs2017-win2016**
@@ -89,7 +99,7 @@ Now that our application is being builtour work is mostly complete. Next, we wil
 3. Change the **Path to publish** to *$(Build.StagingDirectory)*. Leave everything else as is
 4. Click the **Add** button to add the correct YAML to your script
 
-### Part 3: Test Your Script
+#### Part 3: Test Your Script
 Now that we have a complete YAML script for building our application we can save the file. By default, it will be saved as **azure-pipelines.yml** at the root our repository.
 
 Press the **Save and Run** button. A dialog will appear to allow for a custom commit message to describe what is being done. For now, just take the default. Click **Save and Run** once more. This will queue the build action.
