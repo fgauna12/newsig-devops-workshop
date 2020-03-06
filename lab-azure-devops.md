@@ -46,13 +46,13 @@ page_nav:
     </p>
 </div>
 
-## Traditional Pipelines
+## 1. Traditional Pipelines
 
 Here's a lab using traditional Azure DevOps pipelines.
 
-<a href="https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/" class="btn btn--dark btn--rounded btn--w-icon">Azure DevOps Lab</a>
+<a href="https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/" class="btn btn--dark btn--rounded btn--w-icon" target="_blank">Azure DevOps Lab</a>
 
-## Stretch Goal - YAML Pipelines
+## 2. Stretch Goal
 
 In case you're already familiar with Azure DevOps, here's a lab using YAML pipelines.
 
