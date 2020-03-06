@@ -38,7 +38,7 @@ You'll want to run a modern version a web browser. It's probably not going to wo
 
 ## Mini-Lab 1 - Build a container
 
-Go to [this KataCoda lab](https://www.katacoda.com/courses/docker/create-nginx-static-web-server) and follow the instructions.
+<a href="https://www.katacoda.com/courses/docker/create-nginx-static-web-server" class="btn btn--dark btn--rounded btn--w-icon" target="_blank">Go to KataCoda Lab 1</a>
 
 ### Stretch Goals
 
@@ -53,4 +53,4 @@ Is it a good idea?
 
 ## Mini-Lab 2 - More docker commands
 
-Go to [this KataCoda lab](https://www.katacoda.com/courses/docker/deploying-first-container) and follow the instructions.
+<a href="https://www.katacoda.com/courses/docker/deploying-first-container" class="btn btn--dark btn--rounded btn--w-icon" target="_blank">Go to KataCoda Lab 2</a>
