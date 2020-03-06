@@ -39,7 +39,7 @@ page_nav:
     <p><strong>Feature Flag</strong> If you don't see a <b>pipelines</b> menu item, you have to <b>enable multi-stage builds</b>
     
     <br />
-    <img src="/images/preview-feature-pipelines.jpg" />
+    <img src="{{ site.baseurl }}/images/preview-feature-pipelines.jpg" />
 
     <br />
     If you need help enabling this feature, <a href="https://docs.microsoft.com/en-us/azure/devops/project/navigation/preview-features?view=azure-devops#enable-features-for-your-use">see here</a>
