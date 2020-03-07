@@ -45,7 +45,7 @@ Here's a quick recap:
 
 ## Mini-Lab - Deployments using Kubernetes
 
-Go to [this KataCoda lab](https://www.katacoda.com/courses/kubernetes/creating-kubernetes-yaml-definitions) and follow the instructions.
+<a href="https://www.katacoda.com/courses/kubernetes/creating-kubernetes-yaml-definitions" class="btn btn--dark btn--rounded btn--w-icon" target="_blank">KataCoda Lab</a>
 
 ### Stretch Goals
 
