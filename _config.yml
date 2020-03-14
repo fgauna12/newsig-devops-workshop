@@ -1,6 +1,6 @@
 # Theme settings
 doks:
-    baseurl: /devops-workshop
+    baseurl: 
     color_theme: blue # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
