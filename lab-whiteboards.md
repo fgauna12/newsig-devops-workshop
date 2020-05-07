@@ -35,9 +35,8 @@ You'll have **45 minutes**. Don't worry it doesn't have to be perfect. We'll go 
 
 ## Option A - DevOps Whiteboarding Session
 
-<div class="callout callout--info">
-    <p><strong>Slides</strong> Read through the slides to understand the scenario you're solving. You can find the slides <a href="{{site.baseurl}}/slides/4_whiteboards_container_devops_nosolution.pdf" download>here</a> </p>
-</div>
+<a href="{{site.baseurl}}/slides/4_whiteboards_container_devops_nosolution.pdf" class="btn btn--dark btn--rounded btn--w-icon" download>Download Slides</a>
+
 
 ### Exercise Questions
 (_Also available on the slides_)
@@ -53,9 +52,7 @@ You'll have **45 minutes**. Don't worry it doesn't have to be perfect. We'll go 
 
 ## Option B - Architecture Whiteboarding Session
 
-<div class="callout callout--info">
-    <p><strong>Slides</strong> Read through the slides to understand the scenario you're solving. You can find the slides <a href="/slides/4b_whiteboards_microservices..pdf" download>here</a> </p>
-</div>
+<a href="{{site.baseurl}}/slides/4b_whiteboards_microservices.pdf" class="btn btn--dark btn--rounded btn--w-icon" download>Download Slides</a>
 
 ### Exercise Questions
 (_Also available on the slides_)
